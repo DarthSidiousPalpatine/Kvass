@@ -1,0 +1,168 @@
+---- Minecraft Crash Report ----
+// You're mean.
+
+Time: 07.07.22 22:23
+Description: Exception preparing structure feature
+
+java.lang.NullPointerException: Exception preparing structure feature
+	at com.dunk.tfc.WorldGen.GenLayers.Biome.GenLayerBiomeEdge.getInts(GenLayerBiomeEdge.java:77)
+	at com.dunk.tfc.WorldGen.GenLayers.GenLayerZoomTFC.getInts(GenLayerZoomTFC.java:23)
+	at com.dunk.tfc.WorldGen.GenLayers.Biome.GenLayerAddIslandTFC.getInts(GenLayerAddIslandTFC.java:27)
+	at com.dunk.tfc.WorldGen.GenLayers.GenLayerZoomTFC.getInts(GenLayerZoomTFC.java:23)
+	at com.dunk.tfc.WorldGen.GenLayers.Biome.GenLayerBeachTFC.getInts(GenLayerBeachTFC.java:25)
+	at com.dunk.tfc.WorldGen.GenLayers.GenLayerZoomTFC.getInts(GenLayerZoomTFC.java:23)
+	at com.dunk.tfc.WorldGen.GenLayers.GenLayerZoomTFC.getInts(GenLayerZoomTFC.java:23)
+	at com.dunk.tfc.WorldGen.GenLayers.Biome.GenLayerShoreTFC.getInts(GenLayerShoreTFC.java:36)
+	at com.dunk.tfc.WorldGen.GenLayers.Biome.GenLayerLakeShoreTFC.getInts(GenLayerLakeShoreTFC.java:37)
+	at com.dunk.tfc.WorldGen.GenLayers.GenLayerZoomTFC.getInts(GenLayerZoomTFC.java:23)
+	at com.dunk.tfc.WorldGen.GenLayers.GenLayerZoomTFC.getInts(GenLayerZoomTFC.java:23)
+	at com.dunk.tfc.WorldGen.GenLayers.Mountains.GenLayerMountainsInitTFC.getInts(GenLayerMountainsInitTFC.java:31)
+	at com.dunk.tfc.WorldGen.GenLayers.Mountains.GenLayerMountainRangeTFC.getInts(GenLayerMountainRangeTFC.java:51)
+	at com.dunk.tfc.WorldGen.GenLayers.GenLayerSmoothTFC.getInts(GenLayerSmoothTFC.java:26)
+	at com.dunk.tfc.WorldGen.GenLayers.Mountains.GenLayerMountainRangeMixTFC.getInts(GenLayerMountainRangeMixTFC.java:36)
+	at com.dunk.tfc.WorldGen.TFCWorldChunkManager.areBiomesViable(TFCWorldChunkManager.java:188)
+	at net.minecraft.world.gen.structure.MapGenVillage.canSpawnStructureAtCoords(MapGenVillage.java:80)
+	at net.minecraft.world.gen.structure.MapGenStructure.func_151538_a(MapGenStructure.java:43)
+	at net.minecraft.world.gen.MapGenBase.func_151539_a(MapGenBase.java:33)
+	at net.minecraft.world.gen.ChunkProviderGenerate.recreateStructures(ChunkProviderGenerate.java:539)
+	at net.minecraftforge.common.chunkio.ChunkIOProvider.callStage2(ChunkIOProvider.java:49)
+	at net.minecraftforge.common.chunkio.ChunkIOProvider.callStage2(ChunkIOProvider.java:12)
+	at net.minecraftforge.common.util.AsynchronousExecutor.skipQueue(AsynchronousExecutor.java:344)
+	at net.minecraftforge.common.util.AsynchronousExecutor.getSkipQueue(AsynchronousExecutor.java:302)
+	at net.minecraftforge.common.chunkio.ChunkIOExecutor.syncChunkLoad(ChunkIOExecutor.java:12)
+	at net.minecraft.world.gen.ChunkProviderServer.loadChunk(ChunkProviderServer.java:144)
+	at net.minecraft.world.gen.ChunkProviderServer.loadChunk(ChunkProviderServer.java:119)
+	at net.minecraft.world.gen.ChunkProviderServer.provideChunk(ChunkProviderServer.java:221)
+	at net.minecraft.world.World.getChunkFromChunkCoords(World.java:482)
+	at net.minecraft.world.World.getBlock(World.java:387)
+	at net.minecraft.world.World.func_147453_f(World.java:4353)
+	at net.minecraft.world.World.removeTileEntity(World.java:2878)
+	at net.minecraft.block.Block.breakBlock(Block.java:764)
+	at net.minecraft.world.chunk.Chunk.func_150807_a(Chunk.java:658)
+	at net.minecraft.world.World.setBlock(World.java:519)
+	at net.minecraft.world.World.setBlockToAir(World.java:651)
+	at com.dunk.tfc.Blocks.Terrain.BlockCollapsible.tryToFall(BlockCollapsible.java:285)
+	at com.dunk.tfc.Blocks.Terrain.BlockSand.updateTick(BlockSand.java:171)
+	at net.minecraft.world.WorldServer.tickUpdates(WorldServer.java:582)
+	at net.minecraft.world.WorldServer.tick(WorldServer.java:189)
+	at net.minecraft.server.MinecraftServer.updateTimeLightAndEntities(MinecraftServer.java:692)
+	at net.minecraft.server.MinecraftServer.tick(MinecraftServer.java:614)
+	at net.minecraft.server.integrated.IntegratedServer.tick(IntegratedServer.java:118)
+	at net.minecraft.server.MinecraftServer.run(MinecraftServer.java:485)
+	at net.minecraft.server.MinecraftServer$2.run(MinecraftServer.java:752)
+
+
+A detailed walkthrough of the error, its code path and all known details is as follows:
+---------------------------------------------------------------------------------------
+
+-- Head --
+Stacktrace:
+	at com.dunk.tfc.WorldGen.GenLayers.Biome.GenLayerBiomeEdge.getInts(GenLayerBiomeEdge.java:77)
+	at com.dunk.tfc.WorldGen.GenLayers.GenLayerZoomTFC.getInts(GenLayerZoomTFC.java:23)
+	at com.dunk.tfc.WorldGen.GenLayers.Biome.GenLayerAddIslandTFC.getInts(GenLayerAddIslandTFC.java:27)
+	at com.dunk.tfc.WorldGen.GenLayers.GenLayerZoomTFC.getInts(GenLayerZoomTFC.java:23)
+	at com.dunk.tfc.WorldGen.GenLayers.Biome.GenLayerBeachTFC.getInts(GenLayerBeachTFC.java:25)
+	at com.dunk.tfc.WorldGen.GenLayers.GenLayerZoomTFC.getInts(GenLayerZoomTFC.java:23)
+	at com.dunk.tfc.WorldGen.GenLayers.GenLayerZoomTFC.getInts(GenLayerZoomTFC.java:23)
+	at com.dunk.tfc.WorldGen.GenLayers.Biome.GenLayerShoreTFC.getInts(GenLayerShoreTFC.java:36)
+	at com.dunk.tfc.WorldGen.GenLayers.Biome.GenLayerLakeShoreTFC.getInts(GenLayerLakeShoreTFC.java:37)
+	at com.dunk.tfc.WorldGen.GenLayers.GenLayerZoomTFC.getInts(GenLayerZoomTFC.java:23)
+	at com.dunk.tfc.WorldGen.GenLayers.GenLayerZoomTFC.getInts(GenLayerZoomTFC.java:23)
+	at com.dunk.tfc.WorldGen.GenLayers.Mountains.GenLayerMountainsInitTFC.getInts(GenLayerMountainsInitTFC.java:31)
+	at com.dunk.tfc.WorldGen.GenLayers.Mountains.GenLayerMountainRangeTFC.getInts(GenLayerMountainRangeTFC.java:51)
+	at com.dunk.tfc.WorldGen.GenLayers.GenLayerSmoothTFC.getInts(GenLayerSmoothTFC.java:26)
+	at com.dunk.tfc.WorldGen.GenLayers.Mountains.GenLayerMountainRangeMixTFC.getInts(GenLayerMountainRangeMixTFC.java:36)
+	at com.dunk.tfc.WorldGen.TFCWorldChunkManager.areBiomesViable(TFCWorldChunkManager.java:188)
+	at net.minecraft.world.gen.structure.MapGenVillage.canSpawnStructureAtCoords(MapGenVillage.java:80)
+
+-- Feature being prepared --
+Details:
+	Is feature chunk: ~~ERROR~~ NullPointerException: null
+	Chunk location: 12,-315
+	Chunk pos hash: -1352914698228
+	Structure type: net.minecraft.world.gen.structure.MapGenVillage
+Stacktrace:
+	at net.minecraft.world.gen.structure.MapGenStructure.func_151538_a(MapGenStructure.java:43)
+	at net.minecraft.world.gen.MapGenBase.func_151539_a(MapGenBase.java:33)
+	at net.minecraft.world.gen.ChunkProviderGenerate.recreateStructures(ChunkProviderGenerate.java:539)
+	at net.minecraftforge.common.chunkio.ChunkIOProvider.callStage2(ChunkIOProvider.java:49)
+	at net.minecraftforge.common.chunkio.ChunkIOProvider.callStage2(ChunkIOProvider.java:12)
+	at net.minecraftforge.common.util.AsynchronousExecutor.skipQueue(AsynchronousExecutor.java:344)
+	at net.minecraftforge.common.util.AsynchronousExecutor.getSkipQueue(AsynchronousExecutor.java:302)
+	at net.minecraftforge.common.chunkio.ChunkIOExecutor.syncChunkLoad(ChunkIOExecutor.java:12)
+	at net.minecraft.world.gen.ChunkProviderServer.loadChunk(ChunkProviderServer.java:144)
+	at net.minecraft.world.gen.ChunkProviderServer.loadChunk(ChunkProviderServer.java:119)
+	at net.minecraft.world.gen.ChunkProviderServer.provideChunk(ChunkProviderServer.java:221)
+	at net.minecraft.world.World.getChunkFromChunkCoords(World.java:482)
+
+-- Requested block coordinates --
+Details:
+	Found chunk: true
+	Location: World: (216,138,-4993), Chunk: (at 8,8,15 in 13,-313; contains blocks 208,0,-5008 to 223,255,-4993), Region: (0,-10; contains chunks 0,-320 to 31,-289, blocks 0,0,-5120 to 511,255,-4609)
+Stacktrace:
+	at net.minecraft.world.World.getBlock(World.java:387)
+	at net.minecraft.world.World.func_147453_f(World.java:4353)
+	at net.minecraft.world.World.removeTileEntity(World.java:2878)
+	at net.minecraft.block.Block.breakBlock(Block.java:764)
+	at net.minecraft.world.chunk.Chunk.func_150807_a(Chunk.java:658)
+	at net.minecraft.world.World.setBlock(World.java:519)
+	at net.minecraft.world.World.setBlockToAir(World.java:651)
+	at com.dunk.tfc.Blocks.Terrain.BlockCollapsible.tryToFall(BlockCollapsible.java:285)
+	at com.dunk.tfc.Blocks.Terrain.BlockSand.updateTick(BlockSand.java:171)
+
+-- Block being ticked --
+Details:
+	Block type: ID #664 (tile.Scallop // com.dunk.tfc.Blocks.Flora.BlockWaterPlant)
+	Block data value: 0 / 0x0 / 0b0000
+	Block location: World: (216,138,-4991), Chunk: (at 8,8,1 in 13,-312; contains blocks 208,0,-4992 to 223,255,-4977), Region: (0,-10; contains chunks 0,-320 to 31,-289, blocks 0,0,-5120 to 511,255,-4609)
+Stacktrace:
+	at net.minecraft.world.WorldServer.tickUpdates(WorldServer.java:582)
+	at net.minecraft.world.WorldServer.tick(WorldServer.java:189)
+
+-- Affected level --
+Details:
+	Level name: New World
+	All players: 0 total; []
+	Chunk stats: ServerChunkCache: 257 Drop: 0
+	Level seed: 3652688865108296645
+	Level generator: ID 00 - TFCDefault, ver 0. Features enabled: true
+	Level generator options: 
+	Level spawn location: World: (268,146,-4867), Chunk: (at 12,9,13 in 16,-305; contains blocks 256,0,-4880 to 271,255,-4865), Region: (0,-10; contains chunks 0,-320 to 31,-289, blocks 0,0,-5120 to 511,255,-4609)
+	Level time: 576019 game time, 576019 day time
+	Level dimension: 0
+	Level storage version: 0x04ABD - Anvil
+	Level weather: Rain time: 56422 (now: false), thunder time: 161766 (now: false)
+	Level game mode: Game mode: creative (ID 1). Hardcore: false. Cheats: true
+Stacktrace:
+	at net.minecraft.server.MinecraftServer.updateTimeLightAndEntities(MinecraftServer.java:692)
+	at net.minecraft.server.MinecraftServer.tick(MinecraftServer.java:614)
+	at net.minecraft.server.integrated.IntegratedServer.tick(IntegratedServer.java:118)
+	at net.minecraft.server.MinecraftServer.run(MinecraftServer.java:485)
+	at net.minecraft.server.MinecraftServer$2.run(MinecraftServer.java:752)
+
+-- System Details --
+Details:
+	Minecraft Version: 1.7.10
+	Operating System: Windows 10 (amd64) version 10.0
+	Java Version: 1.8.0_333, Oracle Corporation
+	Java VM Version: Java HotSpot(TM) 64-Bit Server VM (mixed mode), Oracle Corporation
+	Memory: 743550312 bytes (709 MB) / 2075918336 bytes (1979 MB) up to 2075918336 bytes (1979 MB)
+	JVM Flags: 3 total; -Xincgc -Xmx2048M -Xms1024M
+	AABB Pool Size: 0 (0 bytes; 0 MB) allocated, 0 (0 bytes; 0 MB) used
+	IntCache: cache: 0, tcache: 0, allocated: 0, tallocated: 20
+	FML: MCP v9.05 FML v7.10.99.99 Minecraft Forge 10.13.4.1614 8 mods loaded, 8 mods active
+	States: 'U' = Unloaded 'L' = Loaded 'C' = Constructed 'H' = Pre-initialized 'I' = Initialized 'J' = Post-initialized 'A' = Available 'D' = Disabled 'E' = Errored
+	UCHIJAAAA	mcp{9.05} [Minecraft Coder Pack] (minecraft.jar) 
+	UCHIJAAAA	FML{7.10.99.99} [Forge Mod Loader] (forgeSrc-1.7.10-10.13.4.1614-1.7.10.jar) 
+	UCHIJAAAA	Forge{10.13.4.1614} [Minecraft Forge] (forgeSrc-1.7.10-10.13.4.1614-1.7.10.jar) 
+	UCHIJAAAA	tfc_coremod{0.89.1} [TFC[coremod]] (minecraft.jar) 
+	UCHIJAAAA	CodeChickenCore{1.0.7.48} [CodeChicken Core] (minecraft.jar) 
+	UCHIJAAAA	NotEnoughItems{1.0.5.120} [Not Enough Items] (NotEnoughItems-1.7.10-1.0.5.120-universal (1).jar) 
+	UCHIJAAAA	terrafirmacraftplus{0.89.1} [TerraFirmaCraft+] ([1.7.10]TerraFirmaCraftPlus-deobf-0.89.1.jar) 
+	UCHIJAAAA	tfcpluskvass{1.0} [Kvass] (bin) 
+	GL info: ~~ERROR~~ RuntimeException: No OpenGL context found in the current thread.
+	Profiler Position: N/A (disabled)
+	Vec3 Pool Size: 0 (0 bytes; 0 MB) allocated, 0 (0 bytes; 0 MB) used
+	Player Count: 0 / 8; []
+	Type: Integrated Server (map_client.txt)
+	Is Modded: Definitely; Client brand changed to 'fml,forge'

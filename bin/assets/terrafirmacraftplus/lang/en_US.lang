@@ -1,0 +1,92 @@
+item.Kvass.name=Bottle of Kvass
+item.Sbiten.name=Bottle of Sbiten
+item.Syrup.name=Bottle of Syrup
+item.Tarhun.name=Bottle of Tarhun
+item.Gogol-Mogol.name=Bottle of Kogel-Mogel
+item.Bowl of Gogol-Mogol.name=Bowl of Kogel-Mogel
+
+item.Tea.name=Bottle of Tea
+item.Kombucha.name=Kombucha
+item.Dying Kombucha.name=Dying Kombucha
+item.Tea Mushroom.name=Bottle of Tea Mushroom
+item.Apple Tea.name=Bottle of Apple Tea
+item.Lemon Tea.name=Bottle of Lemon Tea
+item.Cherry Tea.name=Bottle of Cherry Tea
+item.Blueberry Tea.name=Bottle of Blueberry Tea
+item.Raspberry Tea.name=Bottle of Raspberry Tea
+item.Strawberry Tea.name=Bottle of Strawberry Tea
+item.Blackberry Tea.name=Bottle of Blackberry Tea
+item.Cranberry Tea.name=Bottle of Cranberry Tea
+item.Gooseberry Tea.name=Bottle of Gooseberry Tea
+
+item.Apple Compote.name=Bottle of Apple Compote
+item.Plum Compote.name=Bottle of Plum Compote
+item.Strawberry Compote.name=Bottle of Strawberry Compote
+item.Gooseberry Compote.name=Bottle of Gooseberry Compote
+item.Blueberry Compote.name=Bottle of Blueberry Compote
+item.Raspberry Compote.name=Bottle of Raspberry Compote
+
+item.Grape Mors.name=Bottle of Grape Mors
+item.Agave Mors.name=Bottle of Agave Mors
+item.Cane Mors.name=Bottle of Cane Mors
+item.Apple Mors.name=Bottle of Apple Mors
+item.Orange Mors.name=Bottle of Orange Mors
+item.Lemon Mors.name=Bottle of Lemon Mors
+item.Cherry Mors.name=Bottle of Cherry Mors
+item.Plum Mors.name=Bottle of Plum Mors
+item.Peach Mors.name=Bottle of Peach Mors
+item.Date Mors.name=Bottle of Date Mors
+item.Papaya Mors.name=Bottle of Papaya Mors
+item.Fig Mors.name=Bottle of Fig Mors
+item.Berry Mors.name=Bottle of Berry Mors
+
+item.Kissel.name=Bottle of Kissel
+item.Kissel Bowl.name=Bowl of Kissel
+item.Fruit Kissel.name=Bottle of Fruit Kissel
+item.Fruit Kissel Bowl.name=Bowl of Fruit Kissel
+item.Berry Kissel.name=Bottle of Berry Kissel
+item.Berry Kissel Bowl.name=Bowl of Berry Kissel
+
+fluid.kvass=Kvass
+fluid.uncookedkvass=Uncooked Kvass
+fluid.sbiten=Sbiten
+fluid.syrup=Syrup
+fluid.tarhun=Tarhun
+fluid.gogolmogol=Kogel-Mogel
+
+fluid.tea=Tea
+fluid.teamushroom=Tea Mushroom
+fluid.appletea=Apple Tea
+fluid.lemontea=Lemon Tea
+fluid.cherrytea=Cherry Tea
+fluid.blueberrytea=Blueberry Tea
+fluid.raspberrytea=Raspberry Tea
+fluid.strawberrytea=Strawberry Tea
+fluid.blackberrytea=Blackberry Tea
+fluid.cranberrytea=Cranberry Tea
+fluid.gooseberrytea=Gooseberry Tea
+
+fluid.applecompote=Apple Compote
+fluid.plumcompote=Plum Compote
+fluid.strawberrycompote=Strawberry Compote
+fluid.gooseberrycompote=Gooseberry Compote
+fluid.blueberrycompote=Blueberry Compote
+fluid.raspberrycompote=Raspberry Compote
+
+fluid.grapemors=Grape Mors
+fluid.agavemors=Agave Mors
+fluid.canemors=Cane Mors
+fluid.applemors=Apple Mors
+fluid.orangemors=Orange Mors
+fluid.lemonmors=Lemon Mors
+fluid.cherrymors=Cherry Mors
+fluid.plummors=Plum Mors
+fluid.peachmors=Peach Mors
+fluid.datemors=Date Mors
+fluid.papayamors=Papaya Mors
+fluid.figmors=Fig Mors
+fluid.berrymors=Berry Mors
+
+fluid.kissel=Kissel
+fluid.fruitkissel=Fruit Kissel
+fluid.berrykissel=Berry Kissel

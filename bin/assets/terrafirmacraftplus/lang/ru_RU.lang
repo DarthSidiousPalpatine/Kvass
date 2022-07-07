@@ -1,0 +1,92 @@
+item.Kvass.name=Бутылка кваса
+item.Sbiten.name=Бутылка сбитеня
+item.Syrup.name=Бутылка сиропа
+item.Tarhun.name=Бутылка тархуна
+item.Gogol-Mogol.name=Бутылка гоголь-моголя
+item.Bowl of Gogol-Mogol.name=Миска гоголь-моголя
+
+item.чай.name=Бутылка чая
+item.Kombucha.name=Чайный гриб
+item.Dying Kombucha.name=Умирающий чайный гриб
+item.чай Mushroom.name=Бутылка чайного гриба
+item.Apple чай.name=Бутылка яблочного чая
+item.Lemon чай.name=Бутылка лимонного чая
+item.Cherry чай.name=Бутылка вишнёвого чая
+item.Blueberry чай.name=Бутылка черничного чая
+item.Raspberry чай.name=Бутылка малинового чая
+item.Strawberry чай.name=Бутылка земляничног чая
+item.Blackberry чай.name=Бутылка ежевичного чая
+item.Cranberry чай.name=Бутылка клюквенного чая
+item.Gooseberry чай.name=Бутылка крыжовникового чая
+
+item.Apple компот.name=Бутылка яблочного компота
+item.Plum компот.name=Бутылка сливового компота
+item.Strawberry компот.name=Бутылка земляничного компота
+item.Gooseberry компот.name=Бутылка крыжовникового компота
+item.Blueberry компот.name=Бутылка черничного компота
+item.Raspberry компот.name=Бутылка малинового компота
+
+item.Grape морс.name=Бутылка виноградного морса
+item.Agave морс.name=Бутылка Agave морса
+item.Cane морс.name=Бутылка сахарного морса
+item.Apple морс.name=Бутылка яблочного морса
+item.Orange морс.name=Бутылка апельсинового морса
+item.Lemon морс.name=Бутылка лимонного морса
+item.Cherry морс.name=Бутылка вишнёвого морса
+item.Plum морс.name=Бутылка сливового морса
+item.Peach морс.name=Бутылка персикового морса
+item.Date морс.name=Бутылка финникового морса
+item.Papaya морс.name=Бутылка папйевого морса
+item.Fig морс.name=Бутылка фигового морса
+item.Berry морс.name=Бутылка ягодного морса
+
+item.Кисель.name=Бутылка киселя
+item.Кисель Bowl.name=Миска киселя
+item.Fruit Кисель.name=Бутылка фруктового киселя
+item.Fruit Кисель Bowl.name=Миска фруктового киселя
+item.Berry Кисель.name=Бутылка ягодного киселя
+item.Berry Кисель Bowl.name=Миска ягодного киселя
+
+fluid.kvass=Квас
+fluid.uncookedkvass=Неготовый квас
+fluid.sbiten=Сбитень
+fluid.syrup=Сироп
+fluid.tarhun=Тархун
+fluid.gogolmogol=Гоголь-моголь
+
+fluid.tea=Чай
+fluid.teamushroom=Чайный гриб
+fluid.appletea=Яблочный чай
+fluid.lemontea=Лимонный чай
+fluid.cherrytea=Вишнёвый чай
+fluid.blueberrytea=Черничный чай
+fluid.raspberrytea=Малиновый чай
+fluid.strawberrytea=Земляничный чай
+fluid.blackberrytea=Ежевичный чай
+fluid.cranberrytea=Клюквенный чай
+fluid.gooseberrytea=Крыжовниковый чай
+
+fluid.applecompote=Яблочный компот
+fluid.plumcompote=Сливовый компот
+fluid.strawberrycompote=Земляничный компот
+fluid.gooseberrycompote=Крыжовниковый компот
+fluid.blueberrycompote=Черничный компот
+fluid.raspberrycompote=Малиновый компот
+
+fluid.grapemors=Вишнёвый морс
+fluid.agavemors=Агавовый морс
+fluid.canemors=Сахарный морс
+fluid.applemors=Яблочный морс
+fluid.orangemors=Апельсиновый морс
+fluid.lemonmors=Лимонный морс
+fluid.cherrymors=Вишнёвый морс
+fluid.plummors=Сливовый морс
+fluid.peachmors=Персиковый морс
+fluid.datemors=Финниковый морс
+fluid.papayamors=Папайевый морс
+fluid.figmors=Фиговый морс
+fluid.berrymors=Ягодный морс
+
+fluid.kissel=Кисель
+fluid.fruitkissel=Фруктовый кисель
+fluid.berrykissel=Ягодный кисель

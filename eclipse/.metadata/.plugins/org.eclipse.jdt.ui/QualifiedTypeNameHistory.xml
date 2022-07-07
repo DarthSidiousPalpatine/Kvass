@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+<fullyQualifiedTypeName name="cpw.mods.fml.common.SidedProxy"/>
+<fullyQualifiedTypeName name="cpw.mods.fml.common.event.FMLPreInitializationEvent"/>
+<fullyQualifiedTypeName name="net.minecraftforge.fluids.FluidContainerRegistry"/>
+<fullyQualifiedTypeName name="com.dunk.tfc.api.TFCItems"/>
+<fullyQualifiedTypeName name="com.dunk.tfc.Core.FluidBaseTFC"/>
+<fullyQualifiedTypeName name="net.minecraftforge.fluids.Fluid"/>
+<fullyQualifiedTypeName name="net.minecraft.item.Item"/>
+<fullyQualifiedTypeName name="com.dunk.tfc.api.Crafting.BarrelManager"/>
+<fullyQualifiedTypeName name="com.dunk.tfc.Food.ItemFoodTFC"/>
+<fullyQualifiedTypeName name="net.minecraft.item.ItemStack"/>
+<fullyQualifiedTypeName name="net.minecraftforge.fluids.FluidStack"/>
+<fullyQualifiedTypeName name="com.dunk.tfc.Core.TFCTabs"/>
+<fullyQualifiedTypeName name="com.dunk.tfc.api.Enums.EnumFoodGroup"/>
+<fullyQualifiedTypeName name="cpw.mods.fml.common.registry.GameRegistry"/>
+<fullyQualifiedTypeName name="net.minecraftforge.fluids.FluidRegistry"/>
+<fullyQualifiedTypeName name="com.dunk.tfc.api.TFCFluids"/>
+</qualifiedTypeNameHistroy>
