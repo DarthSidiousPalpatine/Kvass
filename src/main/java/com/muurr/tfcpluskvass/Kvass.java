@@ -11,7 +11,7 @@ import cpw.mods.fml.common.event.FMLPreInitializationEvent;
 public class Kvass
 {
     public static final String MODID = "tfcpluskvass";
-    public static final String VERSION = "1.0";
+    public static final String VERSION = "1.1";
     
     @SidedProxy(clientSide = "com.muurr.tfcpluskvass.Proxy", serverSide = "com.muurr.tfcpluskvass.Proxy")
 	public static Proxy proxy;

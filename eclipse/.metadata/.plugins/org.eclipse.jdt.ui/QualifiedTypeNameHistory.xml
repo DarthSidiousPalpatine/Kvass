@@ -3,7 +3,6 @@
 <fullyQualifiedTypeName name="cpw.mods.fml.common.SidedProxy"/>
 <fullyQualifiedTypeName name="cpw.mods.fml.common.event.FMLPreInitializationEvent"/>
 <fullyQualifiedTypeName name="net.minecraftforge.fluids.FluidContainerRegistry"/>
-<fullyQualifiedTypeName name="com.dunk.tfc.api.TFCItems"/>
 <fullyQualifiedTypeName name="com.dunk.tfc.Core.FluidBaseTFC"/>
 <fullyQualifiedTypeName name="net.minecraftforge.fluids.Fluid"/>
 <fullyQualifiedTypeName name="net.minecraft.item.Item"/>
@@ -16,4 +15,6 @@
 <fullyQualifiedTypeName name="cpw.mods.fml.common.registry.GameRegistry"/>
 <fullyQualifiedTypeName name="net.minecraftforge.fluids.FluidRegistry"/>
 <fullyQualifiedTypeName name="com.dunk.tfc.api.TFCFluids"/>
+<fullyQualifiedTypeName name="com.dunk.tfc.api.TFCItems"/>
+<fullyQualifiedTypeName name="net.minecraft.init.Items"/>
 </qualifiedTypeNameHistroy>
