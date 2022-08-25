@@ -41,7 +41,7 @@ import net.minecraftforge.common.util.ForgeDirection;
 import net.minecraftforge.fluids.FluidContainerRegistry;
 import net.minecraftforge.fluids.FluidStack;
 
-public class ProperItemDrink extends ItemDrink implements ISmashable
+public class ProperItemDrink extends ItemDrink
 {
 	boolean canDrinkInParts = false;
 	float waterRestore = 0;

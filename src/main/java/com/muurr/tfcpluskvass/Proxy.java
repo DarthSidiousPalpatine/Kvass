@@ -84,7 +84,7 @@ public class Proxy {
 		
 		//Teas
 		FluidRegistry.registerFluid(ItemSetup.TEA);
-		setupFluidDrinks(ItemSetup.TEA, 1000, ItemSetup.kvass, TFCItems.glassBottle);
+		setupFluidDrinks(ItemSetup.TEA, 1000, ItemSetup.tea, TFCItems.glassBottle);
 		FluidRegistry.registerFluid(ItemSetup.TEAMUSHROOM);
 		setupFluidDrinks(ItemSetup.TEAMUSHROOM, 1000, ItemSetup.teamushroom, TFCItems.glassBottle);
 		FluidRegistry.registerFluid(ItemSetup.APPLETEA);
